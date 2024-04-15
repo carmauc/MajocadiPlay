@@ -33,9 +33,3 @@ La validación de usuario y contraseña se realiza directamente en la base de da
 
 - **Gestión de Películas por Administradores:** Los usuarios administradores tienen la capacidad de crear, borrar o actualizar la información de las películas directamente en la base de datos, lo que permite una gestión completa y directa de los contenidos.
 
-=======
-# MAJOCADIPLAY
-## Proyecto para la visualización de información de películas y series 
-***TECNOLOGIAS USADAS: React, SpringBoot, Java, mySQL.***
-***Database alojada en https://app.planetscale.com/***
->>>>>>> 32971fc90f4251129b68912ed90147222e5e2ef7
