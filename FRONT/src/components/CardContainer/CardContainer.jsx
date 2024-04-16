@@ -1,11 +1,10 @@
 import React, {useContext} from 'react'
 import Card from '../Card/Card'
 import { AppContext } from '../../provider/appContext'
-import Modal from '../Modal/Modal';
 
 const CardContainer = () => {
 
-    const { movies, srole } = useContext(AppContext);
+    const { movies } = useContext(AppContext);
 
   return (
     <div className='row'>

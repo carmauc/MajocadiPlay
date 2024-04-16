@@ -14,7 +14,7 @@ const CardDetails = () => {
     const service = new Service();
 
     const { id } = useParams();
-    const { movies , setMovies, movie, setMovie } = useContext(AppContext);
+    const { setMovies, movie, setMovie } = useContext(AppContext);
     
 
     

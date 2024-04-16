@@ -4,7 +4,6 @@ import { useNavigate } from 'react-router-dom';
 import { AppContext } from '../../provider/appContext';
 import Service from '../../services/index';
 import Swal from 'sweetalert2'
-import Button from '../Button/Button';
 import Modal from '../Modal/Modal';
 
 const Card = ({movie}) => {

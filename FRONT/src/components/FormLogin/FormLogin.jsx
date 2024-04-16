@@ -1,4 +1,4 @@
-import React, { useState, useContext, useEffect } from 'react';
+import React, { useState, useContext } from 'react';
 import Service from '../../services/index';
 import {AppContext} from '../../provider/appContext';
 import { useNavigate } from 'react-router-dom';
@@ -9,7 +9,7 @@ const FormLogin = () => {
 
     const service = new Service();
     const navigate = useNavigate();
-    const {setUser, setIsAuth, setSrole, setLocalStorageAuth} = useContext(AppContext);
+    const {setUser, setIsAuth, setSrole} = useContext(AppContext);
 
 
 
