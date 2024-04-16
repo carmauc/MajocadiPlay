@@ -2,7 +2,7 @@
 
 # Build settings
 [build]
-  command = "npm run build"
+  command = "CI='' npm run build"
   publish = "build"
 
 # Redirects and rewrites
